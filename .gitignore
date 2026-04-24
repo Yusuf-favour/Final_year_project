@@ -8,3 +8,16 @@ node_modules/
 db.php.local
 *.log
 .DS_Store
+
+# Local editor and environment files
+.vscode/
+.idea/
+*.local
+*.tmp
+*.bak
+
+# Local debug and scratch PHP helpers
+temp*.php
+test_*.php
+check_*.php
+debug_*.php
