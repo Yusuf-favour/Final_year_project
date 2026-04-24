@@ -117,6 +117,7 @@ if($attendance < 65){
 <title>Student Dashboard</title>
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 
@@ -128,6 +129,14 @@ if($attendance < 65){
 
 <div class="container mt-3">
 <div class="d-flex justify-content-end gap-2">
+
+<a href="course_registration.php" class="btn btn-primary shadow-sm">
+<i class="bi bi-journal-plus"></i> Course Registration
+</a>
+
+<a href="transcript.php" class="btn btn-info shadow-sm text-white">
+<i class="bi bi-file-earmark-text"></i> View Transcript
+</a>
 
 <a href="download_pdf.php" class="btn btn-success shadow-sm">
 Download Report

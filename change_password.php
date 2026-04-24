@@ -16,14 +16,23 @@ if(isset($_POST['change'])){
 
     $stmt = $conn->prepare("
         UPDATE users
-        SET pass=?, must_change_password=0
+        SET password_hash=?, must_change_password=0, updated_at=NOW()
         WHERE id=?
     ");
 
     $stmt->bind_param("si",$hash,$user_id);
     $stmt->execute();
 
-    header("Location: student_dashboard.php");
+    /* Role-based redirect */
+    $role = $_SESSION['role'] ?? 'student';
+    $redirects = [
+        'admin' => '/admin/index.php',
+        'lecturer' => '/lecturer/index.php', 
+        'hod' => '/hod/index.php',
+        'student' => '/student/index.php',
+        'staff' => '/staff_dashboard.php' // legacy fallback
+    ];
+    header("Location: " . ($redirects[$role] ?? '/student/index.php'));
     exit();
 }
 ?>

@@ -5,7 +5,7 @@ $msg = "";
 
 if(isset($_POST['reset'])){
 
-    $user    = trim($_POST['user']);
+    $username = trim($_POST['user']);
     $newpass = trim($_POST['newpass']);
 
     /* =========================
@@ -13,10 +13,10 @@ if(isset($_POST['reset'])){
     ========================= */
 
     $stmt = $conn->prepare(
-        "SELECT id FROM users WHERE user=?"
+        "SELECT id FROM users WHERE username=? AND is_active=1"
     );
 
-    $stmt->bind_param("s",$user);
+    $stmt->bind_param("s",$username);
     $stmt->execute();
 
     $result = $stmt->get_result();
@@ -29,10 +29,10 @@ if(isset($_POST['reset'])){
         $hashed = password_hash($newpass, PASSWORD_DEFAULT);
 
         $update = $conn->prepare(
-            "UPDATE users SET pass=? WHERE user=?"
+            "UPDATE users SET password_hash=?, must_change_password=0, updated_at=NOW() WHERE username=?"
         );
 
-        $update->bind_param("ss",$hashed,$user);
+        $update->bind_param("ss",$hashed,$username);
         $update->execute();
 
         $msg = "Password updated successfully!";
@@ -46,9 +46,9 @@ if(isset($_POST['reset'])){
 <!DOCTYPE html>
 <html>
 <head>
-<title>Forgot Password</title>
+<title>Forgot Password – SwiftGrade University</title>
 
-<link rel="stylesheet" href="/sms_project/style.css">
+<link rel="stylesheet" href="styles.css">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
 </head>

@@ -7,9 +7,15 @@ if(!isset($_SESSION['user_id'])){
 }
 
 if($_SESSION['role'] === 'admin'){
-    header("Location: dashboard.php");
+    header("Location: admin/index.php");
+}elseif($_SESSION['role'] === 'lecturer'){
+    header("Location: lecturer/index.php");
+}elseif($_SESSION['role'] === 'hod'){
+    header("Location: hod/index.php");
+}elseif($_SESSION['role'] === 'staff'){
+    header("Location: staff_dashboard.php");
 }else{
-    header("Location: student_dashboard.php");
+    header("Location: student/index.php");
 }
 
 exit();
