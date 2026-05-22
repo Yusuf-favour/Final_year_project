@@ -1,4 +1,4 @@
-# LASCOHET Student Management System
+# SwiftGrade Student Management System
 
 ![PHP](https://img.shields.io/badge/PHP-8.x-777BB4?logo=php&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-10.4+-4479A1?logo=mysql&logoColor=white)
