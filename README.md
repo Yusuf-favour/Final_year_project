@@ -164,27 +164,26 @@ flowchart LR
 
 ## Screenshots (Graphics)
 
-These are the exact showcase screens arranged in your requested order.
+These are the four selected screens from the screenshots folder.
 
-### 1. Landing Page
-<p align="center">
-	<img src="screenshots/Screenshot%20(236).png" alt="SwiftGrade Landing" width="100%" />
-</p>
-
-### 2. Lecturer Dashboard Workspace
-<p align="center">
-	<img src="screenshots/Screenshot%20(433).png" alt="SwiftGrade Lecturer Dashboard" width="100%" />
-</p>
-
-### 3. Sign In Experience
-<p align="center">
-	<img src="screenshots/Screenshot%20(237).png" alt="SwiftGrade Sign In" width="100%" />
-</p>
-
-### 4. Student Dashboard Portal
-<p align="center">
-	<img src="screenshots/Screenshot%20(434).png" alt="SwiftGrade Student Dashboard" width="100%" />
-</p>
+<table>
+	<tr>
+		<td align="center"><strong>Image 1</strong></td>
+		<td align="center"><strong>Image 2</strong></td>
+	</tr>
+	<tr>
+		<td><img src="screenshots/Screenshot%20(236).png" alt="Image 1" width="100%" /></td>
+		<td><img src="screenshots/Screenshot%20(237).png" alt="Image 2" width="100%" /></td>
+	</tr>
+	<tr>
+		<td align="center"><strong>Image 3</strong></td>
+		<td align="center"><strong>Image 4</strong></td>
+	</tr>
+	<tr>
+		<td><img src="screenshots/Screenshot%20(433).png" alt="Image 3" width="100%" /></td>
+		<td><img src="screenshots/Screenshot%20(434).png" alt="Image 4" width="100%" /></td>
+	</tr>
+</table>
 
 <p align="center">
 	<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A7D34,50:7CFFB2,100:F5C451&height=100&section=footer&animation=twinkling" alt="SwiftGrade animated footer divider" />
