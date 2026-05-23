@@ -54,6 +54,31 @@ An enterprise-style, role-based result processing and student records platform f
 - Transcript and result slip generation (PDF)
 - Audit trail logging for operational accountability
 
+## Feature Matrix
+
+| Capability | Admin | HOD | Lecturer | Student |
+|---|---:|---:|---:|---:|
+| User and institution management | Yes | No | No | No |
+| Department-level review and approval | Yes | Yes | No | No |
+| Mark entry and batch submission | Yes | No | Yes | No |
+| Attendance operations | Yes | Yes | Yes | No |
+| Result publishing workflow | Yes | Yes | No | No |
+| Transcript and result access | Yes | Limited | Limited | Yes |
+| Audit and activity visibility | Yes | Limited | Limited | No |
+
+<p align="center">
+	<img src="https://capsule-render.vercel.app/api?type=soft&color=0:0B1220,50:0A7D34,100:7CFFB2&height=90&section=header&text=ROLE-BASED%20INTELLIGENCE%20ENGINE&fontSize=22&fontColor=E8FFF1&animation=fadeIn" alt="Role intelligence strip" />
+</p>
+
+## Role Experience
+
+| Role | Primary Focus | Key Actions |
+|---|---|---|
+| Admin | System-wide governance | Manage institutions, courses, users, sessions, publishing, reports |
+| HOD | Academic quality control | Review submitted batches, approve or reject departmental results |
+| Lecturer | Course delivery and assessment | Enter marks, take attendance, submit results, track batch workflow |
+| Student | Academic self-service | View dashboard, track standing, register courses, access results |
+
 ## Tech Stack
 
 - Backend: PHP (procedural + modular includes)
@@ -163,6 +188,40 @@ These are the exact showcase screens arranged in your requested order.
 
 <p align="center">
 	<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A7D34,50:7CFFB2,100:F5C451&height=100&section=footer&animation=twinkling" alt="SwiftGrade animated footer divider" />
+</p>
+
+## Demo Accounts
+
+<table>
+	<tr>
+		<th>Role</th>
+		<th>Username</th>
+		<th>Password</th>
+		<th>Notes</th>
+	</tr>
+	<tr>
+		<td>Admin</td>
+		<td><code>admin</code></td>
+		<td><code>Admin@2026</code></td>
+		<td>Full access to setup, publishing, and oversight</td>
+	</tr>
+	<tr>
+		<td>Lecturer</td>
+		<td><code>mr.okeke</code></td>
+		<td><code>Lascohet@2026</code></td>
+		<td>Mark entry, attendance, and course workspace actions</td>
+	</tr>
+	<tr>
+		<td>Student</td>
+		<td><code>adesanya.john</code></td>
+		<td><code>Lascohet@2026</code></td>
+		<td>Student dashboard, result access, and profile workflow</td>
+	</tr>
+</table>
+
+<p align="center">
+	<img src="https://img.shields.io/badge/DEMO%20READY-Live%20Accounts-0A7D34?style=for-the-badge&labelColor=111827&color=7CFFB2" alt="Demo ready" />
+	<img src="https://img.shields.io/badge/CLIENT%20HANDOVER-Installation%20Included-1D4ED8?style=for-the-badge&labelColor=0B1220&color=93C5FD" alt="Client handover" />
 </p>
 
 ## Video Walkthroughs
