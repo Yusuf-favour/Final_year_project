@@ -180,8 +180,8 @@ These are the four selected screens from the screenshots folder.
 		<td align="center"><strong>Image 4</strong></td>
 	</tr>
 	<tr>
-		<td><img src="screenshots/Screenshot%20(433).png" alt="Image 3" width="100%" /></td>
-		<td><img src="screenshots/Screenshot%20(434).png" alt="Image 4" width="100%" /></td>
+		<td><img src="screenshots/Screenshot%20(432).png" alt="Image 3" width="100%" /></td>
+		<td><img src="screenshots/Screenshot%20(433).png" alt="Image 4" width="100%" /></td>
 	</tr>
 </table>
 
