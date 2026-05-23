@@ -1,7 +1,7 @@
 # SwiftGrade Student Management System
 
 <p align="center">
-	<img src="https://readme-typing-svg.herokuapp.com?font=Playfair+Display&weight=700&size=28&pause=900&color=0A7D34&center=true&vCenter=true&width=900&lines=SwiftGrade+Student+Management+System;Fast+Secure+Academic+Results+Portal;Role-Based+Workflows+for+Modern+Institutions" alt="SwiftGrade animated headline" />
+	<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=700&size=30&duration=2600&pause=700&color=7CFFB2&center=true&vCenter=true&width=980&lines=SwiftGrade+Student+Management+System;Neon-Powered+Academic+Results+Portal;Fast+Secure+Automated+Role-Based+Workflows" alt="SwiftGrade animated headline" />
 </p>
 
 <p align="center">
@@ -9,13 +9,17 @@
 </p>
 
 <p align="center">
-	<img src="https://img.shields.io/badge/Platform-Academic%20Results-0A7D34?style=for-the-badge" alt="Platform" />
-	<img src="https://img.shields.io/badge/Workflow-Draft%20to%20Publish-1E9E63?style=for-the-badge" alt="Workflow" />
-	<img src="https://img.shields.io/badge/Security-Role%20Based%20Access-C59A2E?style=for-the-badge" alt="Security" />
+	<img src="https://img.shields.io/badge/CYBER%20PORTAL-Academic%20Results-082F49?style=for-the-badge&labelColor=0B6B43&color=7CFFB2" alt="Cyber Portal" />
+	<img src="https://img.shields.io/badge/WORKFLOW-Draft%20to%20Publish-0F766E?style=for-the-badge&labelColor=0A7D34&color=DDFE6E" alt="Workflow" />
+	<img src="https://img.shields.io/badge/SECURITY-Role%20Based%20Access-1D4ED8?style=for-the-badge&labelColor=0F172A&color=F5C451" alt="Security" />
 </p>
 
 <p align="center">
-	<img src="https://capsule-render.vercel.app/api?type=rect&color=0:004D2C,100:0A7D34&height=120&section=header&text=SwiftGrade%20Experience&fontSize=38&fontColor=ffffff&animation=twinkling" alt="SwiftGrade Experience Banner" />
+	<img src="https://capsule-render.vercel.app/api?type=rect&color=0:061A40,50:0A7D34,100:F5C451&height=130&section=header&text=SwiftGrade%20Experience&fontSize=38&fontColor=ffffff&animation=blinking" alt="SwiftGrade Experience Banner" />
+</p>
+
+<p align="center">
+	<img src="https://capsule-render.vercel.app/api?type=soft&color=0:0F172A,50:0A7D34,100:22C55E&height=90&section=header&text=SCI-FI%20INTERFACE%20.%20LIVE%20ANALYTICS%20.%20SMART%20WORKFLOW&fontSize=22&fontColor=E2FFE9&animation=fadeIn" alt="SwiftGrade sci-fi strip" />
 </p>
 
 ![PHP](https://img.shields.io/badge/PHP-8.x-777BB4?logo=php&logoColor=white)
@@ -24,6 +28,8 @@
 ![Status](https://img.shields.io/badge/Status-Production%20Ready-0A7D34)
 
 An enterprise-style, role-based result processing and student records platform for tertiary institutions. It supports complete result workflows from score entry to review, publishing, transcript generation, and student access.
+
+> SwiftGrade blends a clean academic interface with a futuristic, dashboard-driven experience for administrators, HODs, lecturers, and students.
 
 ## Live Modules
 
@@ -133,30 +139,31 @@ flowchart LR
 
 ## Screenshots (Graphics)
 
-These are the latest SwiftGrade interface previews.
+These are the exact showcase screens arranged in your requested order.
 
 ### 1. Landing Page
-![SwiftGrade Landing](screenshots/Screenshot%20(236).png)
+<p align="center">
+	<img src="screenshots/Screenshot%20(236).png" alt="SwiftGrade Landing" width="100%" />
+</p>
 
-### 2. Sign In Experience
-![SwiftGrade Sign In](screenshots/Screenshot%20(237).png)
+### 2. Lecturer Dashboard Workspace
+<p align="center">
+	<img src="screenshots/Screenshot%20(433).png" alt="SwiftGrade Lecturer Dashboard" width="100%" />
+</p>
 
-### 3. Lecturer Dashboard Workspace
-![SwiftGrade Lecturer Dashboard](screenshots/Screenshot%20(433).png)
+### 3. Sign In Experience
+<p align="center">
+	<img src="screenshots/Screenshot%20(237).png" alt="SwiftGrade Sign In" width="100%" />
+</p>
 
 ### 4. Student Dashboard Portal
-![SwiftGrade Student Dashboard](screenshots/Screenshot%20(434).png)
+<p align="center">
+	<img src="screenshots/Screenshot%20(434).png" alt="SwiftGrade Student Dashboard" width="100%" />
+</p>
 
-## Final Client Screenshot Slots
-
-For the exact images you pasted in chat (outside `screenshots/`), place them in this repo at:
-
-- `media/readme/final-landing.png`
-- `media/readme/final-signin.png`
-- `media/readme/final-lecturer-dashboard.png`
-- `media/readme/final-student-dashboard.png`
-
-Then replace the four image paths above with these final files.
+<p align="center">
+	<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A7D34,50:7CFFB2,100:F5C451&height=100&section=footer&animation=twinkling" alt="SwiftGrade animated footer divider" />
+</p>
 
 ## Video Walkthroughs
 
