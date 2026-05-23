@@ -1,5 +1,13 @@
 # SwiftGrade Student Management System
 
+<p align="center">
+	<img src="https://readme-typing-svg.herokuapp.com?font=Playfair+Display&weight=700&size=28&pause=900&color=0A7D34&center=true&vCenter=true&width=900&lines=SwiftGrade+Student+Management+System;Fast+Secure+Academic+Results+Portal;Role-Based+Workflows+for+Modern+Institutions" alt="SwiftGrade animated headline" />
+</p>
+
+<p align="center">
+	<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A7D34,100:1E9E63&height=90&section=header&reversal=false&animation=fadeIn" alt="SwiftGrade animated divider" />
+</p>
+
 ![PHP](https://img.shields.io/badge/PHP-8.x-777BB4?logo=php&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-10.4+-4479A1?logo=mysql&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-5.x-7952B3?logo=bootstrap&logoColor=white)
@@ -115,14 +123,19 @@ flowchart LR
 
 ## Screenshots (Graphics)
 
-![Dashboard View](screenshots/Screenshot%20(236).png)
-![Admin Workspace](screenshots/Screenshot%20(237).png)
-![Result Processing](screenshots/Screenshot%20(239).png)
-![Academic Controls](screenshots/Screenshot%20(240).png)
-![Student Portal](screenshots/Screenshot%20(241).png)
-![Transcript/Result View](screenshots/Screenshot%20(242).png)
-![Attendance Workflow](screenshots/Screenshot%20(243).png)
-![User Management](screenshots/Screenshot%20(244).png)
+These are the latest SwiftGrade interface previews.
+
+### 1. Landing Page
+![SwiftGrade Landing](screenshots/Screenshot%20(236).png)
+
+### 2. Sign In Experience
+![SwiftGrade Sign In](screenshots/Screenshot%20(237).png)
+
+### 3. Lecturer Dashboard Workspace
+![SwiftGrade Lecturer Dashboard](screenshots/Screenshot%20(433).png)
+
+### 4. Student Dashboard Portal
+![SwiftGrade Student Dashboard](screenshots/Screenshot%20(434).png)
 
 ## Video Walkthroughs
 
