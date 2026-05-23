@@ -8,6 +8,16 @@
 	<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A7D34,100:1E9E63&height=90&section=header&reversal=false&animation=fadeIn" alt="SwiftGrade animated divider" />
 </p>
 
+<p align="center">
+	<img src="https://img.shields.io/badge/Platform-Academic%20Results-0A7D34?style=for-the-badge" alt="Platform" />
+	<img src="https://img.shields.io/badge/Workflow-Draft%20to%20Publish-1E9E63?style=for-the-badge" alt="Workflow" />
+	<img src="https://img.shields.io/badge/Security-Role%20Based%20Access-C59A2E?style=for-the-badge" alt="Security" />
+</p>
+
+<p align="center">
+	<img src="https://capsule-render.vercel.app/api?type=rect&color=0:004D2C,100:0A7D34&height=120&section=header&text=SwiftGrade%20Experience&fontSize=38&fontColor=ffffff&animation=twinkling" alt="SwiftGrade Experience Banner" />
+</p>
+
 ![PHP](https://img.shields.io/badge/PHP-8.x-777BB4?logo=php&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-10.4+-4479A1?logo=mysql&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-5.x-7952B3?logo=bootstrap&logoColor=white)
@@ -136,6 +146,17 @@ These are the latest SwiftGrade interface previews.
 
 ### 4. Student Dashboard Portal
 ![SwiftGrade Student Dashboard](screenshots/Screenshot%20(434).png)
+
+## Final Client Screenshot Slots
+
+For the exact images you pasted in chat (outside `screenshots/`), place them in this repo at:
+
+- `media/readme/final-landing.png`
+- `media/readme/final-signin.png`
+- `media/readme/final-lecturer-dashboard.png`
+- `media/readme/final-student-dashboard.png`
+
+Then replace the four image paths above with these final files.
 
 ## Video Walkthroughs
 
